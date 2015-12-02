@@ -34,7 +34,7 @@ export default class Comment extends React.Component{
     var comments = this.state.display ? comments : [];
 
     return <div>
-      <h3>Comments</h3>
+      <h3 className="comment-header">Comments</h3>
       <div><button onClick={()=>{this.toggleComments()}}>{show}</button></div>
       {comments}
       <input type="text" id="commentIn"/>
