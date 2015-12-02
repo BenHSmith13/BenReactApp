@@ -12,6 +12,7 @@ secrets.js
 *_web_pack_bundle.js
 .idea/
 .env
+*.iml
 
 config/secrets.js
 s3_website.yml
